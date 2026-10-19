@@ -1,0 +1,43 @@
+# Kubri Media — Project Rules
+
+## Positioning
+
+Kubri Media is a boutique B2B creator broker. Name = Arabic for "bridge."
+Tagline: "Kubri. Your bridge to technical audiences."
+Voice: structural, reliable, infrastructure — NOT flashy marketing agency.
+Audience: B2B SaaS / DevTool founders and technical marketers.
+
+## Vocabulary
+
+- SAY: "technical creators", "developer creators", "technical channels", "tutorial", "video"
+- DON'T SAY: "YouTubers", "influencers", "content creators", "viral", "drama", "hack"
+- Never use emoji in the UI. Never use exclamation marks.
+
+## Design tokens
+
+- Background: slate-950. Cards: slate-900/50 with white/10 border.
+- Text: slate-100 primary, slate-400 secondary, slate-500 tertiary.
+- Accent (ONLY accent): indigo. Buttons indigo-500 → hover indigo-400.
+  Highlights/eyebrows: indigo-400 or indigo-300.
+- Typography: Inter. tracking-tight on headings. Uppercase mono-style
+  eyebrows with letter-spacing (text-xs, tracking-[0.2em], text-indigo-400).
+- Corners: rounded-2xl cards, rounded-lg buttons. Never 0-radius.
+- Spacing: sections py-24 md:py-32. Content max-w-6xl, side px-6.
+- Motion: 150–300ms color/opacity transitions only. No bounce, no spring,
+  no scroll animations unless explicitly requested.
+- Focus: focus-visible:ring-2 ring-indigo-400/50 on every interactive element.
+
+## Do not
+
+- No stock photos, no people, no illustrations of humans.
+- No gradients as decorative overlays on text or cards.
+- Single soft ambient glow behind the hero is allowed — that's the only gradient.
+- No new dependencies without asking.
+- No new routes/pages. Single landing page.
+- Do not touch copy in docs/COPY.md without explicit instruction.
+
+## Structure
+
+app/layout.tsx, app/page.tsx, app/globals.css
+components/Navbar.tsx, Hero.tsx, Problem.tsx, Solution.tsx, Pricing.tsx,
+Guardrails.tsx, Footer.tsx
