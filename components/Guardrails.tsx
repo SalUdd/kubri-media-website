@@ -18,7 +18,7 @@ export default function Guardrails() {
           view farms. Just pure, developer-focused education.
         </p>
 
-        <div className="mx-auto mt-16 max-w-2xl rounded-2xl border border-white/10 bg-indigo-500/[0.04] p-8 sm:p-10 text-center">
+        <div className="mx-auto mt-16 max-w-2xl rounded-2xl border border-white/10 bg-indigo-500/[0.04] p-8 sm:p-10 text-center ring-1 ring-inset ring-indigo-500/20 shadow-[0_0_80px_-20px_rgba(99,102,241,0.4)]">
           <div className="mb-6 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-slate-950/60 text-indigo-400">
             <Shield className="h-5 w-5" strokeWidth={1.5} aria-hidden />
           </div>

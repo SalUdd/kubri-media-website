@@ -43,6 +43,7 @@ export default function Hero() {
           <div className="pointer-events-none inline-flex select-none items-center gap-2 rounded-lg border border-white/10 bg-slate-900/50 px-4 py-2 font-mono text-xs text-slate-400">
             <span className="text-indigo-400">$</span> kubri match
             --saas=your-app --vertical=devtools
+            <span className="kubri-cursor ml-1 text-indigo-400">▊</span>
           </div>
         </div>
       </div>

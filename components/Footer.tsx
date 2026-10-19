@@ -17,7 +17,7 @@ export default function Footer() {
               <span className="text-indigo-400">.</span>
             </Link>
             <p className="mt-3 text-sm text-slate-400">
-              Kubri — Your bridge to technical audiences.
+              Kubri Media — Your bridge to technical audiences.
             </p>
           </div>
 

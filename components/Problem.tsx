@@ -32,9 +32,9 @@ export default function Problem() {
             return (
               <div
                 key={card.title}
-                className="rounded-2xl border border-white/10 bg-slate-900/40 p-6"
+                className="group rounded-2xl border border-white/10 bg-slate-900/40 p-6 transition-[background-color,border-color,transform] duration-200 hover:border-white/20 hover:bg-slate-900/60 hover:-translate-y-0.5"
               >
-                <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-slate-950/60 text-indigo-400">
+                <div className="mb-4 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-slate-950/60 text-indigo-400 transition-colors duration-200 group-hover:border-indigo-500/30 group-hover:bg-indigo-500/10">
                   <Icon className="h-5 w-5" strokeWidth={1.5} aria-hidden />
                 </div>
 

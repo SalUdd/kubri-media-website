@@ -32,9 +32,9 @@ export default function Process() {
           {steps.map((step) => (
             <div
               key={step.number}
-              className="rounded-2xl border border-white/10 bg-slate-900/40 p-6"
+              className="rounded-2xl border border-white/10 bg-slate-900/40 p-6 transition-[background-color,border-color,transform] duration-200 hover:border-white/20 hover:bg-slate-900/60 hover:-translate-y-0.5"
             >
-              <div className="mb-3 font-mono text-xs tracking-widest text-indigo-400">
+              <div className="mb-3 font-mono text-2xl tracking-widest text-indigo-500/60">
                 {step.number}
               </div>
 

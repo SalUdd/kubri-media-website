@@ -3,3 +3,19 @@
 @theme inline {
   --font-sans: var(--font-inter), ui-sans-serif, system-ui, sans-serif;
 }
+
+@keyframes kubri-blink {
+  0%, 50% { opacity: 1; }
+  51%, 100% { opacity: 0; }
+}
+
+.kubri-cursor {
+  animation: kubri-blink 1.1s step-end infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .kubri-cursor {
+    animation: none;
+    opacity: 1;
+  }
+}
