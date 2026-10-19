@@ -1,4 +1,4 @@
-# Kubri Media — Canonical Copy
+# Kubri Media - Canonical Copy
 
 Do not paraphrase. Use these strings exactly.
 
@@ -40,9 +40,9 @@ Do not paraphrase. Use these strings exactly.
 
 - Eyebrow (uppercase, tracking-wide): THE PROCESS
 - Headline: How it works.
-- Step 1 — Title: Strategy call. Body: We audit your product, ICP, and current channels, and tell you exactly which creators fit. No pitch deck theater.
-- Step 2 — Title: Creator match. Body: We hand-pick creators from our vetted network, negotiate rates, and share the shortlist for your approval.
-- Step 3 — Title: Launch & measure. Body: We brief, review, and manage the integration end-to-end. You get the content and the conversion data.
+- Step 1 - Title: Strategy call. Body: We audit your product, ICP, and current channels, and tell you exactly which creators fit. No pitch deck theater.
+- Step 2 - Title: Creator match. Body: We hand-pick creators from our vetted network, negotiate rates, and share the shortlist for your approval.
+- Step 3 - Title: Launch & measure. Body: We brief, review, and manage the integration end-to-end. You get the content and the conversion data.
 
 ## Guardrails
 
@@ -55,12 +55,12 @@ Do not paraphrase. Use these strings exactly.
 ## Closing CTA
 
 - Headline: Ready to reach a real technical audience?
-- Body: Book a 30-minute call. We'll show you which creators fit your product — before you commit to anything.
+- Body: Book a 30-minute call. We'll show you which creators fit your product - before you commit to anything.
 - CTA: Book a Strategy Call (href: https://calendly.com/kubri/strategy-call)
 
 ## Footer
 
-- Signature: Kubri — Your bridge to technical audiences.
+- Signature: Kubri - Your bridge to technical audiences.
 - Copyright: © 2024 Kubri Media. All rights reserved.
 - Contact label: Contact
 - Contact value: salah@kubrimedia.com

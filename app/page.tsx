@@ -13,11 +13,11 @@ export default function HomePage() {
         aria-hidden
         className="absolute inset-x-0 top-0 z-0 h-[720px] overflow-hidden"
       >
-        {/* Ambient glow — the only gradient */}
+        {/* Ambient glow - the only gradient */}
         <div className="absolute left-1/2 top-[-320px] h-[640px] w-[1400px] -translate-x-1/2 rounded-full bg-indigo-600/30 blur-[140px]" />
-        {/* Focal center — tighter indigo layer */}
+        {/* Focal center - tighter indigo layer */}
         <div className="absolute left-1/2 top-[-220px] h-[440px] w-[980px] -translate-x-1/2 rounded-full bg-indigo-400/20 blur-[120px]" />
-        {/* structural grid — bridge motif; do not replace with generic decoration. */}
+        {/* structural grid - bridge motif; do not replace with generic decoration. */}
         <div
           className="absolute inset-0"
           style={{

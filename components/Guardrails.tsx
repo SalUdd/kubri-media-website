@@ -26,7 +26,7 @@ export default function Guardrails() {
             Ready to reach a real technical audience?
           </h3>
           <p className="mx-auto mt-3 max-w-md text-sm leading-relaxed text-slate-400">
-            {"Book a 30-minute call. We'll show you which creators fit your product — before you commit to anything."}
+            {"Book a 30-minute call. We'll show you which creators fit your product - before you commit to anything."}
           </p>
           <a
             href="https://calendly.com/kubri/strategy-call"

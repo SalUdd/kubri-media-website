@@ -11,7 +11,7 @@ const inter = Inter({
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://kubrimedia.com"),
-  title: "Kubri Media — Technical Creator Marketing for B2B SaaS & DevTools",
+  title: "Kubri Media - Technical Creator Marketing for B2B SaaS & DevTools",
   description:
     "We connect B2B SaaS and DevTool brands with vetted technical creators who actually build with your software. High-intent views, zero fluff.",
   keywords: [
@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "developer creator agency",
   ],
   openGraph: {
-    title: "Kubri Media — Your bridge to technical audiences.",
+    title: "Kubri Media - Your bridge to technical audiences.",
     description:
       "A boutique B2B creator broker connecting SaaS and DevTool founders with vetted technical creators. High-intent views, zero fluff.",
     url: "https://kubrimedia.com",
@@ -31,7 +31,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kubri Media — Your bridge to technical audiences.",
+    title: "Kubri Media - Your bridge to technical audiences.",
     description:
       "Vetted technical creators for B2B SaaS and DevTools. High-intent views, zero fluff.",
   },
