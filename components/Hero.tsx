@@ -31,10 +31,10 @@ export default function Hero() {
           </a>
 
           <a
-            href="#pricing"
+            href="#process"
             className="inline-flex h-11 items-center justify-center rounded-lg border border-white/10 px-6 text-sm font-medium text-slate-200 transition-colors duration-200 hover:bg-white/5 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50 focus-visible:ring-offset-2 focus-visible:ring-offset-slate-950"
           >
-            See pricing
+            See how it works
             <ArrowDown className="ml-1.5 h-4 w-4" aria-hidden />
           </a>
         </div>

@@ -5,7 +5,7 @@ Do not paraphrase. Use these strings exactly.
 ## Nav
 
 - Wordmark: Kubri
-- Nav links: Problem · Solution · Pricing · Trust
+- Nav links: Problem · Solution · Process · Trust
 - CTA: Book a Strategy Call (href: https://calendly.com/kubri/strategy-call)
 
 ## Hero
@@ -15,9 +15,11 @@ Do not paraphrase. Use these strings exactly.
 - Subheadline: We connect B2B SaaS and DevTool brands with vetted technical creators
   who actually build with your software. High-intent views, zero fluff.
 - Primary CTA: Book a Strategy Call
-- Secondary CTA: See pricing (rendered as the text "See pricing" + ArrowDown icon from lucide-react; no literal ↓ glyph in markup)
+- Secondary CTA: See how it works (href: #process; rendered as the text "See how it works" + ArrowDown icon from lucide-react; no literal ↓ glyph in markup)
 
 ## Problem (3 columns)
+
+- Eyebrow (uppercase, tracking-wide): THE PROBLEM
 
 1. The Influencer Tax
    Paying lifestyle influencers for audiences that will never buy your B2B software.
@@ -28,28 +30,19 @@ Do not paraphrase. Use these strings exactly.
 
 ## Solution
 
-- Eyebrow: THE KUBRI STANDARD
+- Eyebrow (uppercase, tracking-wide): THE STANDARD
 - Headline: The Kubri Standard.
 - Body: We take the risk out of creator marketing. We source the exact technical
   channels your buyers watch, negotiate the rates, manage the creative briefs,
   and ensure the content actually converts.
 
-## Pricing
+## Process
 
-Card 1 — The 3-Video Launch Sprint
-
-- Price: $5,500 USD
-- Body: 3 dedicated integrations across 3 different technical creators
-  (or bundled on one channel). Perfect for testing the waters and driving
-  immediate sign-ups.
-- CTA: Start a launch sprint
-
-Card 2 — The Dedicated Tutorial (badge: Most Popular)
-
-- Price: $6,000 USD
-- Body: A full 8–10 minute dedicated tutorial where the creator builds a project
-  using your tool. Includes full ad rights (you can run the video as a paid ad).
-- CTA: Book a dedicated tutorial
+- Eyebrow (uppercase, tracking-wide): THE PROCESS
+- Headline: How it works.
+- Step 1 — Title: Strategy call. Body: We audit your product, ICP, and current channels, and tell you exactly which creators fit. No pitch deck theater.
+- Step 2 — Title: Creator match. Body: We hand-pick creators from our vetted network, negotiate rates, and share the shortlist for your approval.
+- Step 3 — Title: Launch & measure. Body: We brief, review, and manage the integration end-to-end. You get the content and the conversion data.
 
 ## Guardrails
 

@@ -12,6 +12,7 @@ Audience: B2B SaaS / DevTool founders and technical marketers.
 - SAY: "technical creators", "developer creators", "technical channels", "tutorial", "video"
 - DON'T SAY: "YouTubers", "influencers", "content creators", "viral", "drama", "hack"
 - Never use emoji in the UI. Never use exclamation marks.
+- Never mention prices, dollar amounts, package names, or specific offerings in UI copy.
 
 ## Design tokens
 
@@ -39,5 +40,5 @@ Audience: B2B SaaS / DevTool founders and technical marketers.
 ## Structure
 
 app/layout.tsx, app/page.tsx, app/globals.css
-components/Navbar.tsx, Hero.tsx, Problem.tsx, Solution.tsx, Pricing.tsx,
+components/Navbar.tsx, Hero.tsx, Problem.tsx, Solution.tsx, Process.tsx,
 Guardrails.tsx, Footer.tsx

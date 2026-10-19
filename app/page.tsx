@@ -2,7 +2,7 @@ import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
-import Pricing from "@/components/Pricing";
+import Process from "@/components/Process";
 import Guardrails from "@/components/Guardrails";
 import Footer from "@/components/Footer";
 
@@ -38,7 +38,7 @@ export default function HomePage() {
         <Hero />
         <Problem />
         <Solution />
-        <Pricing />
+        <Process />
         <Guardrails />
       </main>
 
