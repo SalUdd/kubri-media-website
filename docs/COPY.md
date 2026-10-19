@@ -46,14 +46,23 @@ Do not paraphrase. Use these strings exactly.
 
 ## Guardrails
 
+- Eyebrow (uppercase, tracking-wide): TRUST & SAFETY
 - Headline: Strict Brand Safety & Vetted Audiences.
 - Body: Every creator in our network is manually vetted for technical accuracy,
   real engagement, and strict brand safety. No controversial drama, no fake
   view farms. Just pure, developer-focused education.
 
+## Closing CTA
+
+- Headline: Ready to reach a real technical audience?
+- Body: Book a 30-minute call. We'll show you which creators fit your product — before you commit to anything.
+- CTA: Book a Strategy Call (href: https://calendly.com/kubri/strategy-call)
+
 ## Footer
 
 - Signature: Kubri — Your bridge to technical audiences.
 - Copyright: © 2024 Kubri Media. All rights reserved.
-- Contact: salah@kubrimedia.com
-- LinkedIn: (href: https://www.linkedin.com/company/kubrimedia)
+- Contact label: Contact
+- Contact value: salah@kubrimedia.com
+- Social label: Connect
+- Social link: LinkedIn (href: https://www.linkedin.com/company/kubrimedia)
