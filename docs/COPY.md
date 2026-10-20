@@ -36,6 +36,14 @@ Do not paraphrase. Use these strings exactly.
   channels your buyers watch, negotiate the rates, manage the creative briefs,
   and ensure the content actually converts.
 
+## Bridge
+
+- Eyebrow (uppercase, tracking-wide): THE BRIDGE
+- Subheadline: Your product on one side. The developers who actually use it on the other.
+- Left labels (top to bottom): SaaS, DevTool, API
+- Center label: Kubri
+- Right labels (top to bottom): #rust, #k8s, #postgres
+
 ## Process
 
 - Eyebrow (uppercase, tracking-wide): THE PROCESS
@@ -43,6 +51,19 @@ Do not paraphrase. Use these strings exactly.
 - Step 1 - Title: Strategy call. Body: We audit your product, ICP, and current channels, and tell you exactly which creators fit. No pitch deck theater.
 - Step 2 - Title: Creator match. Body: We hand-pick creators from our vetted network, negotiate rates, and share the shortlist for your approval.
 - Step 3 - Title: Launch & measure. Body: We brief, review, and manage the integration end-to-end. You get the content and the conversion data.
+
+## FAQ
+
+- Eyebrow (uppercase, tracking-wide): QUESTIONS
+- Headline: Common questions.
+- Q1: How do you vet creators?
+- A1: Every creator in our network is manually reviewed for technical accuracy, audience quality, and brand safety before they're matched with any client. We watch their recent videos, check subscriber engagement, and confirm they actually build with the tooling they teach.
+- Q2: What's the timeline from call to launch?
+- A2: Most campaigns move from strategy call to published content in four to six weeks. That window covers creator matching, rate negotiation, briefing, and the creator's own production schedule.
+- Q3: Can I review the content before it goes live?
+- A3: Yes. Every integration goes through a briefing stage where you approve the creative direction, and a final review pass before publish. You get veto power on anything that misrepresents your product.
+- Q4: What if none of the creators are a fit?
+- A4: We only propose creators we're confident in. If the shortlist doesn't land, we re-source and re-pitch at no cost. The goal is a match that actually converts, not a transaction.
 
 ## Guardrails
 
