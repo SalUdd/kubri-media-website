@@ -81,7 +81,8 @@ Do not paraphrase. Use these strings exactly.
 
 ## Footer
 
-- Signature: Kubri - Your bridge to technical audiences.
+- Brand label (uppercase, tracking-wide): Kubri Media
+- Tagline: Your bridge to technical audiences.
 - Copyright: © 2024 Kubri Media. All rights reserved.
 - Contact label: Contact
 - Contact value: salah@kubrimedia.com

@@ -39,11 +39,22 @@ export default function Hero() {
           </a>
         </div>
 
-        <div className="mt-16 inline-block">
-          <div className="pointer-events-none inline-flex select-none items-center gap-2 rounded-lg border border-white/10 bg-slate-900/50 px-4 py-2 font-mono text-xs text-slate-400">
-            <span className="text-indigo-400">$</span> kubri match
-            --saas=your-app --vertical=devtools
-            <span className="kubri-cursor ml-1 text-indigo-400">▊</span>
+        <div className="mx-auto mt-16 max-w-lg">
+          <div className="rounded-xl border border-white/10 bg-slate-900/60 shadow-[0_0_60px_-15px_rgba(99,102,241,0.35)] overflow-hidden">
+            <div className="flex items-center gap-1.5 border-b border-white/10 bg-slate-950/60 px-4 py-2.5">
+              <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
+              <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
+              <span className="h-2.5 w-2.5 rounded-full bg-white/15" />
+              <span className="ml-3 font-mono text-[11px] text-slate-500">kubri-match</span>
+            </div>
+            <div className="p-5 text-left font-mono text-xs leading-relaxed text-slate-400">
+              <p><span className="text-indigo-400">$</span> kubri match <span className="text-slate-500">--saas=acme</span></p>
+              <p className="mt-3"><span className="text-emerald-400/80">ok</span> scanning technical network<span className="text-slate-600">...</span></p>
+              <p><span className="text-emerald-400/80">ok</span> 3 creators matched</p>
+              <p><span className="text-emerald-400/80">ok</span> <span className="text-slate-500">avg subscribers:</span> 84k <span className="text-slate-600">·</span> <span className="text-slate-500">stack overlap:</span> 92%</p>
+              <p><span className="text-emerald-400/80">ok</span> brand safety <span className="text-slate-500">:</span> 0 flags</p>
+              <p className="mt-3"><span className="text-indigo-400">→</span> ready for strategy call<span className="kubri-cursor ml-1 text-indigo-400">▊</span></p>
+            </div>
           </div>
         </div>
       </div>

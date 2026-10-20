@@ -21,6 +21,7 @@ const cards = [
 export default function Problem() {
   return (
     <section id="problem" className="relative py-24 md:py-32">
+      <div aria-hidden className="absolute inset-x-0 top-0 mx-auto h-px max-w-4xl bg-linear-to-r from-transparent via-indigo-500/20 to-transparent" />
       <div className="mx-auto max-w-6xl px-6">
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-indigo-400">
           THE PROBLEM

@@ -3,6 +3,7 @@ import { Shield } from "lucide-react";
 export default function Guardrails() {
   return (
     <section id="trust" className="relative py-24 md:py-32">
+      <div aria-hidden className="pointer-events-none absolute left-1/2 top-2/3 h-[400px] w-[500px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/[0.07] blur-[120px]" />
       <div className="mx-auto max-w-3xl px-6 text-center">
         <p className="mb-4 text-xs font-medium uppercase tracking-[0.2em] text-indigo-400">
           TRUST & SAFETY
