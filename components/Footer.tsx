@@ -1,5 +1,13 @@
 import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
+import { Suspense } from "react";
+import { io } from "next/cache";
+
+async function Copyright() {
+  await io();
+  const year = new Date().getFullYear();
+  return <>© {year} Kubri Media. All rights reserved.</>;
+}
 
 export default function Footer() {
   return (
@@ -44,7 +52,9 @@ export default function Footer() {
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/5 pt-8 sm:flex-row sm:items-center sm:justify-between">
           <p className="text-xs text-slate-500">
-            © 2024 Kubri Media. All rights reserved.
+            <Suspense fallback="© Kubri Media. All rights reserved.">
+              <Copyright />
+            </Suspense>
           </p>
           <Link
             href="/"

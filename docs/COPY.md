@@ -82,27 +82,17 @@ Do not paraphrase. Use these strings exactly.
   - Creator 02: Developer Workflow Creator - Covers developer tooling and AI-assisted coding workflows.
   - Creator 03: ML Engineering Specialist - Explains model training, deployment, and ML infrastructure.
 
-## Process
+## How It Works
 
-- Section id: #how-it-works (component currently named Process; renames to HowItWorks in Phase 5 with new copy)
+- Section id: #how-it-works
+- Layout: 1-col mobile, 2-col sm, 4-col lg numbered card grid. "Start the process" link below pointing at #conversion.
 - Eyebrow (uppercase, tracking-wide): THE PROCESS
-- Headline: How it works.
-- Step 1 - Title: Strategy call. Body: We audit your product, ICP, and current channels, and tell you exactly which creators fit. No pitch deck theater.
-- Step 2 - Title: Creator match. Body: We hand-pick creators from our vetted network, negotiate rates, and share the shortlist for your approval.
-- Step 3 - Title: Launch & measure. Body: We brief, review, and manage the integration end-to-end. You get the content and the conversion data.
-
-## FAQ
-
-- Eyebrow (uppercase, tracking-wide): QUESTIONS
-- Headline: Common questions.
-- Q1: How do you vet creators?
-- A1: Every creator in our network is manually reviewed for technical accuracy, audience quality, and brand safety before they're matched with any client. We watch their recent videos, check subscriber engagement, and confirm they actually build with the tooling they teach.
-- Q2: What's the timeline from call to launch?
-- A2: Most campaigns move from strategy call to published content in four to six weeks. That window covers creator matching, rate negotiation, briefing, and the creator's own production schedule.
-- Q3: Can I review the content before it goes live?
-- A3: Yes. Every integration goes through a briefing stage where you approve the creative direction, and a final review pass before publish. You get veto power on anything that misrepresents your product.
-- Q4: What if none of the creators are a fit?
-- A4: We only propose creators we're confident in. If the shortlist doesn't land, we re-source and re-pitch at no cost. The goal is a match that actually converts, not a transaction.
+- Headline: From first conversation to published campaign.
+- Step 01 - Title: Understand Your Product. Body: We discuss your software, target audience, goals, and budget to establish what a successful campaign should aim to achieve.
+- Step 02 - Title: Find & Secure Creators. Body: We research and shortlist relevant technical creators, evaluate their suitability, and coordinate outreach and negotiations.
+- Step 03 - Title: Coordinate & Approve. Body: We manage campaign briefs, deliverables, and content reviews while keeping your team involved in important decisions.
+- Step 04 - Title: Launch & Review. Body: We coordinate publication and provide a summary of available performance metrics so you can evaluate the campaign.
+- Link: Start the process (href: #conversion, ArrowRight icon)
 
 ## Why Kubri
 
@@ -116,19 +106,38 @@ Do not paraphrase. Use these strings exactly.
 - Workflow card title: What we manage
 - Workflow items (top to bottom): 01 Creator Research · 02 Audience Evaluation · 03 Outreach & Negotiations · 04 Briefs & Content Coordination · 05 Client Approvals · 06 Publication & Reporting
 
-## Guardrails
+## Guardrails (Trust Strip)
 
+- Section id: #trust
+- Layout: centered trust block. Icon (Shield) + eyebrow + headline + body. No CTA card (CTA moved to Conversion).
 - Eyebrow (uppercase, tracking-wide): TRUST & SAFETY
 - Headline: Strict Brand Safety & Vetted Audiences.
-- Body: Every creator in our network is manually vetted for technical accuracy,
-  real engagement, and strict brand safety. No controversial drama, no fake
-  view farms. Just pure, developer-focused education.
+- Body: Every creator in our network is manually vetted for technical accuracy, real engagement, and strict brand safety. No controversial drama, no fake view farms. Just pure, developer-focused education.
 
-## Closing CTA
+## Conversion
 
-- Headline: Ready to reach a real technical audience?
-- Body: Book a 30-minute call. We'll show you which creators fit your product - before you commit to anything.
-- CTA: Book a Strategy Call (href: https://calendly.com/kubri/strategy-call)
+- Section id: #conversion
+- Layout: centered rounded card with indigo tint, ring, and shadow. Icon (MessageSquare) + headline + body + CTA + supporting line.
+- Icon: MessageSquare
+- Headline: Your next creator partnership starts here.
+- Body: Tell us about your product, the developers you're trying to reach, and what you want to achieve. We'll discuss how a technical creator campaign could fit your goals.
+- CTA: Book a Strategy Call (from config.booking.url and config.booking.label)
+- Supporting line: A conversation about your product, audience, and potential campaign approach.
+
+## FAQ
+
+- Section id: #faq
+- Layout: native <details>/<summary> accordions, single column, divide-y, ChevronDown rotates on open.
+- Eyebrow (uppercase, tracking-wide): QUESTIONS
+- Headline: Common questions.
+- Q1: How do you vet creators? A: We evaluate creators based on their technical niche, relevance to your product, audience engagement, content quality, and brand suitability. We review available performance signals and request additional audience information where appropriate.
+- Q2: How much does a campaign cost? A: Every campaign is different. We provide a tailored proposal based on your objectives, creator selection, and project scope, with creator fees and management costs clearly outlined.
+- Q3: Can we approve creators and content before publication? A: Yes. You'll have the opportunity to review proposed creators and agreed content deliverables through the campaign approval process.
+- Q4: What results can we expect? A: Our focus is helping your product reach relevant technical audiences through credible creator partnerships. Campaign reporting covers agreed performance measures such as views, engagement, and other available metrics. We don't guarantee sales or conversions.
+- Q5: What if you can't find the right creators? A: We'll reassess your requirements and discuss possible alternatives. If we don't believe a suitable partnership can be achieved, we'll communicate that rather than recommend creators who aren't a good fit.
+- Q6: Which platforms do you work with? A: We focus on technical content creators. The platforms and content formats are selected based on your product, target audience, and campaign requirements.
+- Q7: How long does a campaign take? A: Timelines depend on the campaign scope, creator availability, and content requirements. We'll discuss the expected schedule during planning and confirm milestones before the campaign begins.
+- Q8: Can Kubri manage the entire creator partnership? A: Yes. We coordinate creator research, outreach, negotiations, campaign briefs, content reviews, and publication, with your team involved in key approvals.
 
 ## Footer
 

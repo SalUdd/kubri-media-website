@@ -4,7 +4,8 @@ import Problem from "@/components/Problem";
 import KubriStandard from "@/components/KubriStandard";
 import Bridge from "@/components/Bridge";
 import CredibilityStrip from "@/components/CredibilityStrip";
-import Process from "@/components/Process";
+import Conversion from "@/components/Conversion";
+import HowItWorks from "@/components/HowItWorks";
 import WhyKubri from "@/components/WhyKubri";
 import Faq from "@/components/Faq";
 import Guardrails from "@/components/Guardrails";
@@ -44,9 +45,10 @@ export default function HomePage() {
         <Problem />
         <KubriStandard />
         <Bridge />
-        <Process />
+        <HowItWorks />
         <WhyKubri />
         <Guardrails />
+        <Conversion />
         <Faq />
       </main>
 
