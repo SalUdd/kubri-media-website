@@ -36,6 +36,9 @@ export const metadata: Metadata = {
       "Vetted technical creators for B2B SaaS and DevTools. High-intent views, zero fluff.",
   },
   icons: { icon: "/favicon.ico" },
+  alternates: {
+    canonical: "/",
+  },
 };
 
 export default function RootLayout({

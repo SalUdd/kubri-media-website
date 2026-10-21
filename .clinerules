@@ -2,43 +2,109 @@
 
 ## Positioning
 
-Kubri Media is a boutique B2B creator broker. Name = Arabic for "bridge."
-Tagline: "Kubri. Your bridge to technical audiences."
-Voice: structural, reliable, infrastructure — NOT flashy marketing agency.
-Audience: B2B SaaS / DevTool founders and technical marketers.
+Kubri Media is a boutique B2B technical creator marketing agency.
+Name: Arabic for "bridge." Kubri is the brand, Media is the descriptor.
+Tagline: "Kubri - Your bridge to technical audiences."
+Voice: structural, reliable, infrastructure - NOT flashy agency.
+Audience: B2B SaaS and DevTool founders, heads of marketing, DevRel.
+
+## What Kubri does
+
+Kubri is a MANAGED SERVICE, not a software platform or marketplace.
+It researches relevant technical creators, evaluates fit, negotiates,
+coordinates briefs and approvals, manages publication, and reports back.
+Creators produce the content. Kubri manages the partnership.
+Never imply Kubri has proprietary AI matching, scoring, or a network
+of specific creators. Illustrations are methodology, not a product.
+
+## What Kubri does NOT have (do not fabricate)
+
+- Client testimonials, case studies, or named client logos
+- Campaign results, view counts, revenue, conversion numbers
+- Years of business experience
+- Audience statistics or engagement percentages
+- Awards, certifications, partnerships, network size
+- Guaranteed views, sales, conversions, or ROI
+- Fixed prices or minimum budgets
+
+Pricing is project-specific. If pricing must be mentioned, say it's
+a tailored proposal. Never publish a number.
 
 ## Vocabulary
 
-- SAY: "technical creators", "developer creators", "technical channels", "tutorial", "video"
-- DON'T SAY: "YouTubers", "influencers", "content creators", "viral", "drama", "hack"
-- Never use emoji in the UI. Never use exclamation marks.
-- Never mention prices, dollar amounts, package names, or specific offerings in UI copy.
+- SAY: "technical creators," "developer creators," "technical channels,"
+  "creator partnerships," "campaign," "relevant audience"
+- DON'T SAY: "YouTubers," "content creators," "viral," "drama,"
+  "hack," "guaranteed results," "10x," "explosive growth," "unlock"
+- "Influencers" — allowed ONLY in the Hero headline as the exact
+  negating statement "Not generic influencers." Nowhere else.
+- No emojis. No exclamation marks.
+- HYPENS ONLY, NO EM-DASHES (—). Even when source copy has them,
+  replace with a hyphen surrounded by spaces (" - ").
 
 ## Design tokens
 
-- Background: slate-950. Cards: slate-900/50 with white/10 border.
+- Background: slate-950. Cards: slate-900/40 base, hover slate-900/60.
+- Borders: white/10 base, white/20 on hover. Indigo/30-40 for accents.
 - Text: slate-100 primary, slate-400 secondary, slate-500 tertiary.
-- Accent (ONLY accent): indigo. Buttons indigo-500 → hover indigo-400.
-  Highlights/eyebrows: indigo-400 or indigo-300.
-- Typography: Inter. tracking-tight on headings. Uppercase mono-style
-  eyebrows with letter-spacing (text-xs, tracking-[0.2em], text-indigo-400).
-- Corners: rounded-2xl cards, rounded-lg buttons. Never 0-radius.
+- Accent: indigo. Buttons indigo-500 → hover indigo-400.
+  Eyebrows and highlights: indigo-400.
+  Emerald-400/80 is the ONLY secondary color, and ONLY in monospace
+  terminal output where green = "success." Never in UI chrome.
+- Typography: Inter. tracking-tight headings.
+  Eyebrows: text-xs font-medium uppercase tracking-[0.2em] text-indigo-400.
+- Corners: rounded-2xl cards, rounded-xl terminals/pills, rounded-lg
+  buttons/chips.
 - Spacing: sections py-24 md:py-32. Content max-w-6xl, side px-6.
-- Motion: 150–300ms color/opacity transitions only. No bounce, no spring,
-  no scroll animations unless explicitly requested.
-- Focus: focus-visible:ring-2 ring-indigo-400/50 on every interactive element.
+- Motion: 150-300ms color/opacity transitions. 2px max hover lift on
+  cards (duration-200). No bounce, no spring, no scroll hijack.
+  Scroll reveals (if used): CSS-only via @supports (animation-timeline:
+  view()) + @media (prefers-reduced-motion: no-preference). No JS.
+- Focus: focus-visible:ring-2 ring-indigo-400/50 on every interactive
+  element. Buttons add ring-offset-2 ring-offset-slate-950.
+
+## Ambient glow policy
+
+- Max 5 ambient glow blobs across the entire page.
+- Hero: 2 (existing indigo-600/30 + indigo-400/20).
+- Section glows: up to 3 more (Solution, Process, Guardrails already
+  have them). New sections do NOT get a glow unless replacing one.
+- Glow blobs use bg-indigo-500/[0.05] to bg-indigo-600/30 (never
+  brighter). blur-[100px] to blur-[140px]. Never on text.
 
 ## Do not
 
 - No stock photos, no people, no illustrations of humans.
-- No gradients as decorative overlays on text or cards.
-- Single soft ambient glow behind the hero is allowed — that's the only gradient.
+- No gradients on text or card backgrounds (only as single ambient
+  glows and 1px hairline dividers).
 - No new dependencies without asking.
-- No new routes/pages. Single landing page.
-- Do not touch copy in docs/COPY.md without explicit instruction.
+- Only one route exists on the site: /. /privacy is the only approved
+  exception (added Phase 8).
+- Never touch docs/COPY.md without also rewriting the section it
+  describes in the same commit.
+- Never add "use client" to a component that has no state, effects,
+  refs, or event handlers.
+- Never add client-side tracking, analytics, or scripts.
+- Never fabricate proof, testimonials, results, or partnerships.
+
+## Centralized config (never hardcode URLs in components)
+
+All external URLs live in lib/config.ts. Components import from there.
+Adding a new external link = add to config.ts first.
 
 ## Structure
 
 app/layout.tsx, app/page.tsx, app/globals.css
-components/Navbar.tsx, Hero.tsx, Problem.tsx, Solution.tsx, Process.tsx,
-Guardrails.tsx, Footer.tsx
+lib/config.ts
+components/Navbar.tsx, Hero.tsx, CredibilityStrip.tsx (new),
+Problem.tsx, KubriStandard.tsx (renamed from Solution),
+Bridge.tsx, HowItWorks.tsx (renamed from Process),
+WhyKubri.tsx (new), Conversion.tsx (extracted),
+Faq.tsx, Footer.tsx
+docs/COPY.md
+
+## COPY.md workflow
+
+- COPY.md is source-of-truth for the CURRENT rendered copy on the site.
+- When a component's copy changes, COPY.md updates in the same commit.
+- The master brief is upstream intent; COPY.md tracks what's shipped.
