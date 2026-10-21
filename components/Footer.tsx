@@ -2,6 +2,7 @@ import Link from "next/link";
 import { ArrowUpRight } from "lucide-react";
 import { Suspense } from "react";
 import { io } from "next/cache";
+import { config } from "@/lib/config";
 
 async function Copyright() {
   await io();
@@ -28,10 +29,10 @@ export default function Footer() {
               Contact
             </p>
             <a
-              href="mailto:salah@kubrimedia.com"
+              href={`mailto:${config.contact.email}`}
               className="text-sm text-slate-400 hover:text-white transition-colors duration-200 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
             >
-              salah@kubrimedia.com
+              {config.contact.email}
             </a>
           </div>
 
@@ -39,14 +40,16 @@ export default function Footer() {
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
               Connect
             </p>
-            <a
-              href="https://www.linkedin.com/company/kubrimedia"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-white transition-colors duration-200 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
-            >
-              LinkedIn <ArrowUpRight className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden />
-            </a>
+            {config.social.linkedin && (
+              <a
+                href={config.social.linkedin}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-1 text-sm text-slate-400 hover:text-white transition-colors duration-200 rounded focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
+              >
+                LinkedIn <ArrowUpRight className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden />
+              </a>
+            )}
           </div>
         </div>
 
@@ -56,13 +59,21 @@ export default function Footer() {
               <Copyright />
             </Suspense>
           </p>
-          <Link
-            href="/"
-            className="rounded inline-flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
-          >
-            <span className="text-base font-semibold tracking-tight text-white">Kubri</span>
-            <span className="text-indigo-400">.</span>
-          </Link>
+          <div className="flex items-center gap-6">
+            <Link
+              href="/privacy"
+              className="rounded text-xs text-slate-500 transition-colors duration-200 hover:text-slate-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
+            >
+              Privacy
+            </Link>
+            <Link
+              href="/"
+              className="rounded inline-flex focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
+            >
+              <span className="text-base font-semibold tracking-tight text-white">Kubri</span>
+              <span className="text-indigo-400">.</span>
+            </Link>
+          </div>
         </div>
       </div>
     </footer>
