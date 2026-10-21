@@ -151,9 +151,9 @@ Do not paraphrase. Use these strings exactly.
 
 ## SEO & Metadata
 
-- Title tag: Technical Influencer Marketing for DevTools & SaaS | Kubri
+- Title tag: B2B Influencer Marketing for DevTools & SaaS | Kubri
 - Title template: %s | Kubri
-- Meta description: Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.
+- Meta description: Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research to campaign coordination, we manage the partnership.
 - Canonical: (from config.site.url) /
 - OG image: dynamically generated via app/opengraph-image.tsx (1200x630, dark background, Kubri wordmark, tagline)
 - Twitter card: summary_large_image

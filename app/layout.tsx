@@ -13,11 +13,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL(config.site.url),
   title: {
-    default: "Technical Influencer Marketing for DevTools & SaaS | Kubri",
+    default: "B2B Influencer Marketing for DevTools & SaaS | Kubri",
     template: "%s | Kubri",
   },
   description:
-    "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
+    "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research to campaign coordination, we manage the partnership.",
   keywords: [
     "technical influencer marketing",
     "developer creator marketing",
@@ -36,15 +36,15 @@ export const metadata: Metadata = {
     locale: "en_US",
     url: config.site.url,
     siteName: "Kubri Media",
-    title: "Technical Influencer Marketing for DevTools & SaaS | Kubri",
+    title: "B2B Influencer Marketing for DevTools & SaaS | Kubri",
     description:
-      "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
+      "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research to campaign coordination, we manage the partnership.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Technical Influencer Marketing for DevTools & SaaS | Kubri",
+    title: "B2B Influencer Marketing for DevTools & SaaS | Kubri",
     description:
-      "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
+      "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research to campaign coordination, we manage the partnership.",
   },
   robots: {
     index: true,
