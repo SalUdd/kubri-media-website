@@ -1,7 +1,7 @@
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
-import Solution from "@/components/Solution";
+import KubriStandard from "@/components/KubriStandard";
 import Bridge from "@/components/Bridge";
 import CredibilityStrip from "@/components/CredibilityStrip";
 import Process from "@/components/Process";
@@ -41,7 +41,7 @@ export default function HomePage() {
         <Hero />
         <CredibilityStrip />
         <Problem />
-        <Solution />
+        <KubriStandard />
         <Bridge />
         <Process />
         <Guardrails />

@@ -44,14 +44,19 @@ Do not paraphrase. Use these strings exactly.
 - Card 3 - Icon: Clock. Title: Campaign Overhead. Body: Finding creators, negotiating terms, coordinating content, and managing delivery takes time your team could spend elsewhere.
 - Closing line: That's why we focus on relevance, credibility, and execution - not follower count alone.
 
-## Solution
+## Kubri Standard
 
-- Section id: #standard (component currently named Solution; renames to KubriStandard in Phase 4 with new copy)
-- Eyebrow (uppercase, tracking-wide): THE STANDARD
-- Headline: The Kubri Standard.
-- Body: We take the risk out of creator marketing. We source the exact technical
-  channels your buyers watch, negotiate the rates, manage the creative briefs,
-  and ensure the content actually converts.
+- Section id: #standard
+- Layout: 2-column on desktop (5/7 split). Left column sticky on md+ (top-24, self-start). Right column is an ordered list of 4 numbered criteria with hairline dividers between them.
+- Eyebrow (uppercase, tracking-wide): THE KUBRI STANDARD
+- Headline: The right creator. The right audience. The right campaign.
+- Body paragraph 1: A great sponsorship isn't just about reach. We evaluate how well a creator understands your category, whether their audience matches your buyers, and how naturally your product fits their content.
+- Body paragraph 2: Then we coordinate the campaign from initial outreach through publication and performance reporting.
+- Link (below body): Why we built Kubri (href: #why-kubri, ArrowRight icon)
+- Criteria 01 - Title: Product & Audience Fit. Body: Creators whose content and audience align with your product and the developers you're trying to reach.
+- Criteria 02 - Title: Engagement Quality. Body: We look beyond follower counts, reviewing audience interactions and available engagement signals.
+- Criteria 03 - Title: Technical Credibility. Body: Creators who can explain technical concepts clearly and demonstrate software in a way that fits their content.
+- Criteria 04 - Title: Content & Brand Quality. Body: Production standards, communication, and content suitability are considered before we make a recommendation.
 
 ## Bridge
 
