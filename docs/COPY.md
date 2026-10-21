@@ -60,11 +60,27 @@ Do not paraphrase. Use these strings exactly.
 
 ## Bridge
 
+- Section id: #bridge
+- Layout: 3 tab pills above panel. Panel is 3-column on desktop (product card → connector → Kubri pill → connector → 3 creator cards stacked) and vertical stack on mobile. Tab switching is client-side (useState), keyboard accessible with arrow keys.
 - Eyebrow (uppercase, tracking-wide): THE BRIDGE
-- Subheadline: Your product on one side. The developers who actually use it on the other.
-- Left labels (top to bottom): SaaS, DevTool, API
-- Center label: Kubri
-- Right labels (top to bottom): #rust, #k8s, #postgres
+- Headline: Connecting your product with the right technical voices.
+- Description: Not every creator is right for every product. We look at what your software does, who it's designed for, and which creators are best positioned to introduce it to a relevant audience.
+- Caption (below panel, mono, small): Illustrative creator matching example - not an actual campaign or creator recommendation.
+- Tab 1 - Label: Developer API
+  - Product: Your API / REST or GraphQL endpoints / #api #backend #sdk
+  - Creator 01: Backend Engineering Educator - Creates tutorials around APIs, databases, and backend development workflows.
+  - Creator 02: API Tutorial Creator - Focuses on API integration patterns, SDKs, and developer onboarding.
+  - Creator 03: Software Architecture Specialist - Explains system design and integration across distributed services.
+- Tab 2 - Label: Cloud & DevOps Tool
+  - Product: Your DevOps Tool / CI/CD, observability, or infrastructure / #devops #cloud #sre
+  - Creator 01: DevOps Educator - Covers CI/CD pipelines, containerization, and deployment workflows.
+  - Creator 02: Cloud Infrastructure Creator - Teaches cloud services, infrastructure-as-code, and production scaling patterns.
+  - Creator 03: Site Reliability Specialist - Explains monitoring, observability, and production reliability.
+- Tab 3 - Label: AI Developer Tool
+  - Product: Your AI Tool / LLM SDKs, agents, or developer workflows / #ai #llm #ml
+  - Creator 01: AI Engineering Educator - Creates content on LLM integration, prompt engineering, and AI workflows.
+  - Creator 02: Developer Workflow Creator - Covers developer tooling and AI-assisted coding workflows.
+  - Creator 03: ML Engineering Specialist - Explains model training, deployment, and ML infrastructure.
 
 ## Process
 
@@ -87,6 +103,18 @@ Do not paraphrase. Use these strings exactly.
 - A3: Yes. Every integration goes through a briefing stage where you approve the creative direction, and a final review pass before publish. You get veto power on anything that misrepresents your product.
 - Q4: What if none of the creators are a fit?
 - A4: We only propose creators we're confident in. If the shortlist doesn't land, we re-source and re-pitch at no cost. The goal is a match that actually converts, not a transaction.
+
+## Why Kubri
+
+- Section id: #why-kubri
+- Layout: 2-column on desktop, stacked on mobile. Left column: eyebrow + headline + two paragraphs + founder note (blockquote with left border). Right column: card containing a 6-item workflow timeline.
+- Eyebrow (uppercase, tracking-wide): WHY KUBRI
+- Headline: Technical understanding meets marketing execution.
+- Body paragraph 1: Effective creator partnerships require more than finding someone with a large audience. With backgrounds in both marketing and software development, we understand the importance of communicating technical products accurately, reaching relevant audiences, and coordinating campaigns professionally.
+- Body paragraph 2: Kubri handles the research, communication, negotiations, and campaign coordination so your team doesn't have to manage every moving part.
+- Founder note (blockquote, italic, left indigo border): We started Kubri Media after years in marketing, watching technical products get marketed like consumer goods. Generic strategies. No product understanding. No clear reason why any specific creator should care. We built the agency we wished existed - one that starts with the product, not the follower count.
+- Workflow card title: What we manage
+- Workflow items (top to bottom): 01 Creator Research · 02 Audience Evaluation · 03 Outreach & Negotiations · 04 Briefs & Content Coordination · 05 Client Approvals · 06 Publication & Reporting
 
 ## Guardrails
 

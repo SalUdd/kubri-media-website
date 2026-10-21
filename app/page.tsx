@@ -5,6 +5,7 @@ import KubriStandard from "@/components/KubriStandard";
 import Bridge from "@/components/Bridge";
 import CredibilityStrip from "@/components/CredibilityStrip";
 import Process from "@/components/Process";
+import WhyKubri from "@/components/WhyKubri";
 import Faq from "@/components/Faq";
 import Guardrails from "@/components/Guardrails";
 import Footer from "@/components/Footer";
@@ -44,6 +45,7 @@ export default function HomePage() {
         <KubriStandard />
         <Bridge />
         <Process />
+        <WhyKubri />
         <Guardrails />
         <Faq />
       </main>
