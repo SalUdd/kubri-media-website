@@ -25,13 +25,13 @@ export const config = {
 
   // Booking - replace with the real URL when ready.
   booking: {
-    url: "https://calendly.com/kubri/strategy-call",
+    url: "https://cal.com/salah-uddin-qihcxb/30min",
     label: "Book a Strategy Call",
   },
 
   // Social - null means "not yet created, don't render".
   // Set to the real URL when the profile goes live.
   social: {
-    linkedin: null as string | null,
+    linkedin: "https://www.linkedin.com/company/kubri-media",
   },
 } as const;
