@@ -42,8 +42,8 @@ export default function HomePage() {
         <Solution />
         <Bridge />
         <Process />
-        <Faq />
         <Guardrails />
+        <Faq />
       </main>
 
       <Footer />
