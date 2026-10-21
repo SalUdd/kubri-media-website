@@ -6,10 +6,10 @@ import { Menu, X } from "lucide-react";
 import { config } from "@/lib/config";
 
 const links = [
-  { label: "Why Kubri", href: "#why-kubri" },
-  { label: "The Standard", href: "#standard" },
-  { label: "How It Works", href: "#how-it-works" },
-  { label: "FAQ", href: "#faq" },
+  { label: "Why Kubri", href: "/#why-kubri" },
+  { label: "The Standard", href: "/#standard" },
+  { label: "How It Works", href: "/#how-it-works" },
+  { label: "FAQ", href: "/#faq" },
 ];
 
 export default function Navbar() {

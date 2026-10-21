@@ -14,7 +14,7 @@ export default function Footer() {
   return (
     <footer className="relative border-t border-white/5 py-16">
       <div className="mx-auto max-w-6xl px-6">
-        <div className="grid grid-cols-1 gap-12 md:grid-cols-3">
+        <div className={`grid grid-cols-1 gap-12 ${config.social.linkedin ? "md:grid-cols-3" : "md:grid-cols-2"}`}>
           <div>
             <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
               Kubri Media
@@ -36,11 +36,11 @@ export default function Footer() {
             </a>
           </div>
 
-          <div>
-            <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
-              Connect
-            </p>
-            {config.social.linkedin && (
+          {config.social.linkedin && (
+            <div>
+              <p className="mb-3 text-xs font-medium uppercase tracking-[0.2em] text-slate-500">
+                Connect
+              </p>
               <a
                 href={config.social.linkedin}
                 target="_blank"
@@ -49,8 +49,8 @@ export default function Footer() {
               >
                 LinkedIn <ArrowUpRight className="h-3.5 w-3.5" strokeWidth={1.5} aria-hidden />
               </a>
-            )}
-          </div>
+            </div>
+          )}
         </div>
 
         <div className="mt-12 flex flex-col gap-4 border-t border-white/5 pt-8 sm:flex-row sm:items-center sm:justify-between">
