@@ -1,6 +1,6 @@
 export default function Solution() {
   return (
-    <section id="solution" className="relative py-24 md:py-32">
+    <section id="standard" className="relative py-24 md:py-32">
       <div aria-hidden className="absolute inset-x-0 top-0 mx-auto h-px max-w-4xl bg-linear-to-r from-transparent via-indigo-500/20 to-transparent" />
       <div aria-hidden className="pointer-events-none absolute left-1/2 top-1/2 h-[400px] w-[600px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-indigo-500/[0.05] blur-[120px]" />
       <div className="mx-auto max-w-3xl px-6 text-center">

@@ -4,18 +4,36 @@ Do not paraphrase. Use these strings exactly.
 
 ## Nav
 
-- Wordmark: Kubri
-- Nav links: Problem · Solution · Process · Trust
-- CTA: Book a Strategy Call (href: https://calendly.com/kubri/strategy-call)
+- Wordmark: Kubri (with indigo period rendered as a separate span)
+- Nav links: Why Kubri · The Standard · How It Works · FAQ
+- Link hrefs: #why-kubri · #standard · #how-it-works · #faq
+- CTA: Book a Strategy Call (from lib/config.ts: config.booking.label, config.booking.url)
 
 ## Hero
 
 - Eyebrow (uppercase, tracking-wide): YOUR BRIDGE TO TECHNICAL AUDIENCES
-- Headline: Your SaaS deserves a real technical audience. Not generic influencers.
-- Subheadline: We connect B2B SaaS and DevTool brands with vetted technical creators
-  who actually build with your software. High-intent views, zero fluff.
-- Primary CTA: Book a Strategy Call
-- Secondary CTA: See how it works (href: #process; rendered as the text "See how it works" + ArrowDown icon from lucide-react; no literal ↓ glyph in markup)
+- Headline line 1: Your SaaS deserves a real technical audience.
+- Headline line 2 (block, muted): Not generic influencers.
+- Subheadline: We connect B2B SaaS and DevTool brands with credible technical creators who reach the developers you're trying to reach. From finding the right creators to managing the entire campaign, we handle the work behind the partnership.
+- Primary CTA: Book a Strategy Call (from config.booking)
+- Secondary CTA: See How It Works (href: #how-it-works, ArrowDown icon)
+- Terminal title bar: kubri evaluate
+- Terminal content:
+  $ kubri evaluate --category=devtools
+  ok identify product category
+  ok research relevant creator niches
+  ok review audience engagement
+  ok evaluate technical content quality
+  ok prepare creator shortlist
+  → 3 archetypes ready (with blinking cursor)
+- Terminal caption (below terminal): Illustrative workflow - not live data.
+
+## Credibility Strip
+
+- Layout: horizontal strip, border-y, 3 inline columns, no cards
+- Pillar 1 - Title: Technical Understanding. Body: We understand the products and audiences behind developer-focused software.
+- Pillar 2 - Title: Relevant Creator Selection. Body: Creator recommendations are based on audience fit, technical relevance, and content quality.
+- Pillar 3 - Title: End-to-End Coordination. Body: From outreach and negotiations to approvals and publication, we manage the moving parts.
 
 ## Problem (3 columns)
 
@@ -30,6 +48,7 @@ Do not paraphrase. Use these strings exactly.
 
 ## Solution
 
+- Section id: #standard (component currently named Solution; renames to KubriStandard in Phase 4 with new copy)
 - Eyebrow (uppercase, tracking-wide): THE STANDARD
 - Headline: The Kubri Standard.
 - Body: We take the risk out of creator marketing. We source the exact technical
@@ -46,6 +65,7 @@ Do not paraphrase. Use these strings exactly.
 
 ## Process
 
+- Section id: #how-it-works (component currently named Process; renames to HowItWorks in Phase 5 with new copy)
 - Eyebrow (uppercase, tracking-wide): THE PROCESS
 - Headline: How it works.
 - Step 1 - Title: Strategy call. Body: We audit your product, ICP, and current channels, and tell you exactly which creators fit. No pitch deck theater.

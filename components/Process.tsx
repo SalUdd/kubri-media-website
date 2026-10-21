@@ -18,7 +18,7 @@ const steps = [
 
 export default function Process() {
   return (
-    <section id="process" className="relative py-24 md:py-32">
+    <section id="how-it-works" className="relative py-24 md:py-32">
       <div aria-hidden className="absolute inset-x-0 top-0 mx-auto h-px max-w-4xl bg-linear-to-r from-transparent via-indigo-500/20 to-transparent" />
       <div aria-hidden className="pointer-events-none absolute right-0 top-1/2 h-[300px] w-[400px] -translate-y-1/2 rounded-full bg-indigo-500/[0.05] blur-[100px]" />
       <div className="mx-auto max-w-6xl px-6">

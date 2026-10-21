@@ -3,6 +3,7 @@ import Hero from "@/components/Hero";
 import Problem from "@/components/Problem";
 import Solution from "@/components/Solution";
 import Bridge from "@/components/Bridge";
+import CredibilityStrip from "@/components/CredibilityStrip";
 import Process from "@/components/Process";
 import Faq from "@/components/Faq";
 import Guardrails from "@/components/Guardrails";
@@ -38,6 +39,7 @@ export default function HomePage() {
 
       <main className="relative z-10 flex-1">
         <Hero />
+        <CredibilityStrip />
         <Problem />
         <Solution />
         <Bridge />
