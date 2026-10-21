@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import type { ReactNode } from "react";
 import { Inter } from "next/font/google";
+import { config } from "@/lib/config";
 import "./globals.css";
 
 const inter = Inter({
@@ -10,34 +11,51 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://kubrimedia.com"),
-  title: "Kubri Media - Technical Creator Marketing for B2B SaaS & DevTools",
+  metadataBase: new URL(config.site.url),
+  title: {
+    default: "Technical Influencer Marketing for DevTools & SaaS | Kubri",
+    template: "%s | Kubri",
+  },
   description:
-    "We connect B2B SaaS and DevTool brands with vetted technical creators who actually build with your software. High-intent views, zero fluff.",
+    "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
   keywords: [
-    "B2B SaaS creator marketing",
-    "technical creator marketing",
-    "DevTool creator marketing",
-    "technical YouTube sponsorships",
-    "developer creator agency",
+    "technical influencer marketing",
+    "developer creator marketing",
+    "DevTool marketing",
+    "B2B SaaS creator partnerships",
+    "developer marketing agency",
   ],
+  authors: [{ name: "Kubri Media" }],
+  creator: "Kubri Media",
+  publisher: "Kubri Media",
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
-    title: "Kubri Media - Your bridge to technical audiences.",
-    description:
-      "A boutique B2B creator broker connecting SaaS and DevTool founders with vetted technical creators. High-intent views, zero fluff.",
-    url: "https://kubrimedia.com",
-    siteName: "Kubri Media",
     type: "website",
+    locale: "en_US",
+    url: config.site.url,
+    siteName: "Kubri Media",
+    title: "Technical Influencer Marketing for DevTools & SaaS | Kubri",
+    description:
+      "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
   },
   twitter: {
     card: "summary_large_image",
-    title: "Kubri Media - Your bridge to technical audiences.",
+    title: "Technical Influencer Marketing for DevTools & SaaS | Kubri",
     description:
-      "Vetted technical creators for B2B SaaS and DevTools. High-intent views, zero fluff.",
+      "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
   },
-  icons: { icon: "/favicon.ico" },
-  alternates: {
-    canonical: "/",
+  robots: {
+    index: true,
+    follow: true,
+    googleBot: {
+      index: true,
+      follow: true,
+      "max-video-preview": -1,
+      "max-image-preview": "large",
+      "max-snippet": -1,
+    },
   },
 };
 
@@ -54,6 +72,20 @@ export default function RootLayout({
     >
       <body className="min-h-screen bg-slate-950 font-sans text-slate-100 antialiased selection:bg-indigo-500/30 selection:text-white">
         {children}
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "Organization",
+              name: "Kubri Media",
+              url: config.site.url,
+              email: config.contact.email,
+              description:
+                "Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.",
+            }),
+          }}
+        />
       </body>
     </html>
   );

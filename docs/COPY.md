@@ -148,3 +148,16 @@ Do not paraphrase. Use these strings exactly.
 - Contact value: salah@kubrimedia.com
 - Social label: Connect
 - Social link: LinkedIn (href: https://www.linkedin.com/company/kubrimedia)
+
+## SEO & Metadata
+
+- Title tag: Technical Influencer Marketing for DevTools & SaaS | Kubri
+- Title template: %s | Kubri
+- Meta description: Kubri connects DevTool and B2B SaaS brands with relevant technical creators. From creator research and outreach to campaign coordination, we manage the partnership.
+- Canonical: (from config.site.url) /
+- OG image: dynamically generated via app/opengraph-image.tsx (1200x630, dark background, Kubri wordmark, tagline)
+- Twitter card: summary_large_image
+- Robots: index, follow
+- Sitemap: config.site.url/sitemap.xml
+- Structured data: Organization schema (name, url, email, description). No fabricated fields.
+- Favicon: app/icon.svg (dark rounded square, white K, indigo period)
