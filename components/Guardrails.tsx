@@ -2,7 +2,7 @@ import { Shield } from "lucide-react";
 
 export default function Guardrails() {
   return (
-    <section id="trust" className="relative py-20 md:py-24">
+    <section id="trust" className="relative scroll-mt-20 py-20 md:py-24">
       <div className="mx-auto max-w-3xl px-6 text-center">
         <div className="mb-6 inline-flex h-10 w-10 items-center justify-center rounded-lg border border-white/10 bg-slate-950/60 text-indigo-400">
           <Shield className="h-5 w-5" strokeWidth={1.5} aria-hidden />

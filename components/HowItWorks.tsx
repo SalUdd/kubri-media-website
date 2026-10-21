@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 const steps = [
@@ -26,7 +25,7 @@ const steps = [
 
 export default function HowItWorks() {
   return (
-    <section id="how-it-works" className="relative py-24 md:py-32">
+    <section id="how-it-works" className="relative scroll-mt-20 py-24 md:py-32">
       <div
         aria-hidden
         className="absolute inset-x-0 top-0 mx-auto h-px max-w-4xl bg-linear-to-r from-transparent via-indigo-500/20 to-transparent"
@@ -61,13 +60,13 @@ export default function HowItWorks() {
         </div>
 
         <div className="mt-12">
-          <Link
+          <a
             href="#conversion"
             className="inline-flex items-center gap-1.5 rounded text-sm font-medium text-indigo-400 transition-colors duration-200 hover:text-indigo-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
           >
             Start the process
             <ArrowRight className="h-4 w-4" strokeWidth={1.5} aria-hidden />
-          </Link>
+          </a>
         </div>
       </div>
     </section>

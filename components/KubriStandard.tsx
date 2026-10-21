@@ -1,4 +1,3 @@
-import Link from "next/link";
 import { ArrowRight } from "lucide-react";
 
 const criteria = [
@@ -26,7 +25,7 @@ const criteria = [
 
 export default function KubriStandard() {
   return (
-    <section id="standard" className="relative py-24 md:py-32">
+    <section id="standard" className="relative scroll-mt-20 py-24 md:py-32">
       <div
         aria-hidden
         className="absolute inset-x-0 top-0 mx-auto h-px max-w-4xl bg-linear-to-r from-transparent via-indigo-500/20 to-transparent"
@@ -52,13 +51,13 @@ export default function KubriStandard() {
               Then we coordinate the campaign from initial outreach through publication and performance reporting.
             </p>
 
-            <Link
+            <a
               href="#why-kubri"
               className="mt-8 inline-flex items-center gap-1.5 rounded text-sm font-medium text-indigo-400 transition-colors duration-200 hover:text-indigo-300 focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-indigo-400/50"
             >
               Why we built Kubri
               <ArrowRight className="h-4 w-4" strokeWidth={1.5} aria-hidden />
-            </Link>
+            </a>
           </div>
 
           <ol className="md:col-span-7">

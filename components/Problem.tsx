@@ -20,7 +20,7 @@ const cards = [
 
 export default function Problem() {
   return (
-    <section id="problem" className="relative py-24 md:py-32">
+    <section id="problem" className="relative scroll-mt-20 py-24 md:py-32">
       <div
         aria-hidden
         className="absolute inset-x-0 top-0 mx-auto h-px max-w-4xl bg-linear-to-r from-transparent via-indigo-500/20 to-transparent"
