@@ -35,16 +35,14 @@ Do not paraphrase. Use these strings exactly.
 - Pillar 2 - Title: Relevant Creator Selection. Body: Creator recommendations are based on audience fit, technical relevance, and content quality.
 - Pillar 3 - Title: End-to-End Coordination. Body: From outreach and negotiations to approvals and publication, we manage the moving parts.
 
-## Problem (3 columns)
+## Problem
 
 - Eyebrow (uppercase, tracking-wide): THE PROBLEM
-
-1. The Influencer Tax
-   Paying lifestyle influencers for audiences that will never buy your B2B software.
-2. Bot Traffic
-   Paying for views that vanish the second the video is posted.
-3. Wasted Time
-   Founders spending 20 hours a week cold-DMing creators instead of building their product.
+- Headline: Views mean little if you're reaching the wrong audience.
+- Card 1 - Icon: UserX. Title: The Wrong Audience. Body: A large following doesn't always mean the right audience. Your software needs to reach people who understand its value and have a reason to use it.
+- Card 2 - Icon: Eye. Title: Vanity Metrics. Body: Views and follower counts only tell part of the story. What matters is whether your product is being introduced to a relevant, engaged audience.
+- Card 3 - Icon: Clock. Title: Campaign Overhead. Body: Finding creators, negotiating terms, coordinating content, and managing delivery takes time your team could spend elsewhere.
+- Closing line: That's why we focus on relevance, credibility, and execution - not follower count alone.
 
 ## Solution
 
